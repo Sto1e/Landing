@@ -1,3 +1,9 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .header { 
     background-color: #1f2937;
     color: #f9fAf8;
