@@ -20,9 +20,11 @@ body {
 .firstline {
 display: flex;
 flex-direction: row;
-gap: 500px;
-justify-content: center;
+flex: 1;
+gap: 700px;
+justify-content: space-evenly ;
 padding: 24px 0px;
+margin: 0px 100px;
 
 
 }
@@ -48,12 +50,14 @@ padding: 24px 0px;
     height: 250px;
     background-color: rgb(144, 146, 148);
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
 .tables { 
 display: flex;
+flex: 1;
 justify-content: center;
 align-items: center;
 margin: 100px;
@@ -62,6 +66,7 @@ gap: 50px;
 
 ul {
     display: flex;
+    flex: 1;  
     margin: 0;
     padding: 0;
     list-style: none;
@@ -92,6 +97,7 @@ button {
     font-weight: 800;
     color: #1f2937;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     padding: 32px;
@@ -108,6 +114,7 @@ button {
 
 .squares { 
     display: flex;
+    flex: 1;
     justify-content: center;
     gap: 48px;
 }
@@ -121,6 +128,7 @@ button {
 
 .subtext {
     display: flex;
+    flex: 1;
     justify-content: center;
     gap: 56px;
     margin-top: 12px;
@@ -131,6 +139,7 @@ button {
     background-color: #e5e7eb;
     color: #1f2937;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -151,13 +160,16 @@ button {
     width: 700px;
     height: 200px;
     display: flex;
+    flex: 1;
     justify-content: flex-end;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .fourth {
     
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -204,6 +216,7 @@ button {
     color: white;
     font-size: 24px;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     padding: 32px;
